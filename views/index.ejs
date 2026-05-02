@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cocktail Finder</title>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+<h1>🍹 Cocktail Finder</h1>
+<p>Search your favorite drink</p>
+
+<form action="/search" method="POST">
+  <input type="text" name="drink" placeholder="Enter drink name">
+  <button type="submit">Search</button>
+</form>
+
+<hr>
+
+<div class="container">
+  <% if (drinks) { %>
+    <% drinks.forEach(drink => { %>
+      <div class="card">
+        <h2><%= drink.strDrink %></h2>
+        <img src="<%= drink.strDrinkThumb %>">
+        <p><%= drink.strInstructions %></p>
+      </div>
+    <% }) %>
+  <% } %>
+
+  <% if (drinks === null) { %>
+    <p style="color:red;">❌ No drink found</p>
+  <% } %>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "cocktail-project",
+  "version": "1.0.0",
+  "description": "An app using Node.js, Express.js, Axios and Public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlpayDevv/cocktail-finder-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AlpayDevv/cocktail-finder-app/issues"
+  },
+  "homepage": "https://github.com/AlpayDevv/cocktail-finder-app#readme",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
