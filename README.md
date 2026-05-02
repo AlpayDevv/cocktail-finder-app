@@ -28,6 +28,9 @@ https://www.thecocktaildb.com/api.php
 
 ---
 
+## Screenshot
+cocktail-finder-homepage.png
+
 ## ▶️ Installation & Run
 
 ```bash
