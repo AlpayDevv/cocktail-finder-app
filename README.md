@@ -28,8 +28,8 @@ https://www.thecocktaildb.com/api.php
 
 ---
 
-## Screenshot
-cocktail-finder-homepage.png
+## Preview
+![Cocktail App](./cocktail-finder-homepage.png)
 
 ## ▶️ Installation & Run
 
