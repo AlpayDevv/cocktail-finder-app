@@ -31,6 +31,13 @@ https://www.thecocktaildb.com/api.php
 ## Preview
 ![Cocktail App](./cocktail-finder-homepage.png)
 
+---
+
+## 🔗 Links
+
+- 🌍 Live Demo: [Click here](https://alpaydevv.github.io/cocktail-finder-app/)
+- 📦 GitHub: [Source Code](https://github.com/AlpayDevv/cocktail-finder-app)
+
 ## ▶️ Installation & Run
 
 ```bash
