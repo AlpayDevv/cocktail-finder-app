@@ -33,3 +33,7 @@ https://www.thecocktaildb.com/api.php
 ```bash
 npm install
 npx nodemon index.js
+
+## 📸 Preview
+
+![Cocktail App](./public/images/screenshot.png)
